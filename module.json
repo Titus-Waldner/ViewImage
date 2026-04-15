@@ -1,11 +1,17 @@
 {
-  "id": "view-image",
-  "title": "ViewImage",
-  "description": "View image for players",
-  "version": "1.0",
+  "id": "ViewImage",
+  "title": "ViewImage!",
+  "description": "View image",
+  "version": "1.0.0",
   "authors": [
     {
-      "name": "comrade"
+      "name": "o_Ove",
+      "discord": "Ove#4315",
+      "flags": {}
+    },
+    {
+      "name": "Brunhine",
+      "flags": {}
     }
   ],
   "esmodules": [
