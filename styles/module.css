@@ -1,0 +1,54 @@
+.image-context {
+  z-index: 1000;
+  height: max-content;
+  min-width: 150px;
+  max-width: 360px;
+  background: #23221de0;
+  border: 1px solid #000;
+  border-radius: 5px;
+  color: #eee;
+  position: absolute;
+  animation: image-context-fadeIn 0.3s ease-in-out forwards;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+  padding: 0.3em;
+}
+
+.image-context-button{
+    padding: 0.3em 0em;
+}
+
+.image-context-button:hover{
+    text-shadow: 0 0 5px red;
+    cursor: pointer;
+}
+
+.image-context-button i{
+    margin: 0 0.3em;
+}
+
+.image-context-chat-message{
+    border-radius: 5px;
+    border-color: transparent;
+    width: 100%;
+}
+
+.image-context-chat-message:hover{
+    cursor: pointer;
+}
+
+.image-context-dialog-player{
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.3em;
+}
+
+@keyframes image-context-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
