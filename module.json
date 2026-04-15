@@ -1,17 +1,11 @@
 {
-  "id": "FollowMe",
-  "title": "Follow Me!",
-  "description": "Allows tokens to follow other tokens.",
-  "version": "11.0.0",
+  "id": "view-image",
+  "title": "ViewImage",
+  "description": "View image for players",
+  "version": "1.0.0",
   "authors": [
     {
-      "name": "o_Ove",
-      "discord": "Ove#4315",
-      "flags": {}
-    },
-    {
-      "name": "Brunhine",
-      "flags": {}
+      "name": "comrade"
     }
   ],
   "esmodules": [
@@ -22,6 +16,7 @@
   "styles": [
     "styles/module.css"
   ],
+  "socket": true,
   "url": "https://github.com/Titus-Waldner/ViewImage",
   "download": "https://github.com/Titus-Waldner/ViewImage/archive/refs/tags/FoundryVTT.zip",
   "manifest": "https://github.com/Titus-Waldner/ViewImage/releases/download/FoundryVTT/module.json",
