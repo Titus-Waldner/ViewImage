@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "view-image",
   "title": "ViewImage",
   "description": "View image for players",
@@ -8,14 +8,7 @@
       "name": "comrade"
     }
   ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-  "scripts": [
+  "esmodules": [
     "scripts/main.js",
     "scripts/config.js",
     "scripts/module.js"
@@ -24,19 +17,20 @@
     "styles/module.css"
   ],
   "socket": true,
-  "relationships": {
-    "requires": [
-      {
-        "id": "lib-wrapper",
-        "type": "module"
-      }
-    ]
-  },
+  "url": "https://github.com/Titus-Waldner/ViewImage",
+  "download": "https://github.com/Titus-Waldner/ViewImage/archive/refs/tags/FoundryVTT.zip",
+  "manifest": "https://github.com/Titus-Waldner/ViewImage/releases/download/FoundryVTT/module.json",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "license": "LICENSE",
+  "readme": "README.md",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
-  },
-  "url": "https://github.com/Titus-Waldner/ViewImage",
-  "manifest": "https://github.com/Titus-Waldner/ViewImage/releases/download/FoundryVTT/module.json",
-  "download": "https://github.com/Titus-Waldner/ViewImage/archive/refs/tags/FoundryVTT.zip"
+  }
 }
