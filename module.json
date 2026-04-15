@@ -1,7 +1,8 @@
 {
+  "id": "view-image",
   "title": "ViewImage",
   "description": "View image for players",
-  "version": "0.8",
+  "version": "1.0",
   "authors": [
     {
       "name": "comrade"
@@ -23,13 +24,11 @@
     "styles/module.css"
   ],
   "socket": true,
-  "id": "image-context",
   "relationships": {
     "requires": [
       {
         "id": "lib-wrapper",
-        "type": "module",
-        "compatibility": {}
+        "type": "module"
       }
     ]
   },
