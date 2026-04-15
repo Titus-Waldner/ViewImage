@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "view-image",
   "title": "ViewImage",
   "description": "View image for players",
@@ -35,5 +35,8 @@
   "compatibility": {
     "minimum": "11",
     "verified": "11"
-  }
+  },
+  "url": "https://github.com/Titus-Waldner/ViewImage",
+  "manifest": "https://github.com/Titus-Waldner/ViewImage/releases/download/FoundryVTT/module.json",
+  "download": "https://github.com/Titus-Waldner/ViewImage/archive/refs/tags/FoundryVTT.zip"
 }
