@@ -18,8 +18,8 @@
   ],
   "socket": true,
   "url": "https://github.com/Titus-Waldner/ViewImage",
-  "download": "https://github.com/Titus-Waldner/ViewImage/archive/refs/tags/FoundryVTT.zip",
   "manifest": "https://github.com/Titus-Waldner/ViewImage/releases/download/FoundryVTT/module.json",
+  "download": "https://github.com/Titus-Waldner/ViewImage/archive/refs/tags/FoundryVTT.zip",
   "languages": [
     {
       "lang": "en",
